@@ -1,4 +1,4 @@
-# Sytax Error Safari
+# Sytax Error Safari!!!
 
 When you first start programming, one of the things you struggle with the most is all the \$&#^@ syntax errors you make. I mean - who knew that spelling actually mattered?!?
 
@@ -23,13 +23,15 @@ There are two files you will need to work on. They are both already created for 
    Where would you like to go today?
 
    Top grossing movie of 1988: Rain Man
-
-
-   Q. What did the mermaid wash her fins with?
-      A. Tide.
    ```
 
-   > **NOTES**
-   >
-   > - the only code you need in main are 5 calls to the methods in DrillUtil
-   > - the test in `src/test/java/drill/MainTest.java` will pass if you have done this step correctly
+Q. What did the mermaid wash her fins with?
+A. Tide.
+
+```
+
+> **NOTES**
+>
+> - the only code you need in main are 5 calls to the methods in DrillUtil
+> - the test in `src/test/java/drill/MainTest.java` will pass if you have done this step correctly
+```
