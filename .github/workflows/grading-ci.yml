@@ -1,9 +1,7 @@
 name: Docpush
 
-on: [push]
+on: push
 
-jobs:
-  copyit:
     - name: Copy
       uses: andstor/copycat-action@v3
       with:
