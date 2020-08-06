@@ -17,6 +17,8 @@ jobs:
           dst_path: /README.md
           dst_owner: MRU-CSIS-1501-DEV-PLAYGROUND
           dst_repo_name: syntax-error-safari-completed
+          username: jpratt-mru
+          email: jpratt@mtroyal.ca
 
   copy_to_template:
     runs-on: ubuntu-latest
@@ -32,3 +34,5 @@ jobs:
           dst_path: /README.md
           dst_owner: MRU-CSIS-1501-DEV-PLAYGROUND
           dst_repo_name: syntax-error-safari-starting-template
+          username: jpratt-mru
+          email: jpratt@mtroyal.ca
