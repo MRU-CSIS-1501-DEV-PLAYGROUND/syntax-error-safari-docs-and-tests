@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - name: Copy
+      - name: Copy to completed
         uses: andstor/copycat-action@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
@@ -17,8 +17,8 @@ jobs:
           dst_path: /README.md
           dst_owner: MRU-CSIS-1501-DEV-PLAYGROUND
           dst_repo_name: syntax-error-safari-completed
-          
-        - name: Copy
+
+      - name: Copy to template
         uses: andstor/copycat-action@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
