@@ -2,11 +2,18 @@ name: Docpush
 
 on: push
 
-      name: Copy
-      uses: andstor/copycat-action@v3
-      with:
-        personal_token: ${{ secrets.PERSONAL_TOKEN }}
-        src_path: /README.md
-        dst_path: /README.md
-        dst_owner: MRU-CSIS-1501-DEV-PLAYGROUND
-        dst_repo_name: syntax-error-safari-completed
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Copy
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          src_path: /README.md
+          dst_path: /README.md
+          dst_owner: MRU-CSIS-1501-DEV-PLAYGROUND
+          dst_repo_name: syntax-error-safari-completed
